@@ -170,3 +170,68 @@ button:nth-child(2):hover{
     padding: 3rem;
     font-size: 1.3rem;
 }
+
+@media (max-width: 768px) {
+  .protfolio-container {
+    flex-direction: column;
+  }
+
+  .left-container,
+  .right-container {
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+    padding: 2rem 1rem;
+  }
+
+  .navlist {
+    flex-direction: column;
+    gap: 1.2rem;
+    position: static;
+    background-color: #262525;
+    padding: 1rem 0;
+  }
+
+  .content {
+    margin-left: 0;
+    text-align: center;
+  }
+
+  .content h1 {
+    font-size: 2.2rem;
+  }
+
+  .content .detail {
+    font-size: 1rem;
+    margin: 1rem 0 2rem;
+  }
+
+  .btn-container {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center;
+  }
+
+  button:nth-child(2) {
+    margin-left: 0;
+  }
+
+  .icons {
+    flex-direction: row;
+    justify-content: center;
+    gap: 2rem;
+    margin-top: 2rem;
+  }
+
+  .design .circle {
+    position: static;
+    transform: none;
+    margin: 2rem auto;
+  }
+
+  .circle:nth-child(1),
+  .circle:nth-child(2) {
+    width: 15rem;
+  }
+}
