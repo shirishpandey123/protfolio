@@ -230,3 +230,97 @@ button:nth-child(2):hover{
     height: auto;
   }
 }
+@media (max-width: 768px) {
+
+  html, body {
+    overflow-x: hidden;
+  }
+
+  .protfolio-container {
+    flex-direction: column;
+    align-items: center;
+    padding-top: 7rem;
+    position: relative;
+  }
+
+  .navlist {
+    flex-direction: column;
+    background-color: #262525;
+    height: auto;
+    padding: 1rem 0;
+    gap: 1rem;
+    position: static;
+    z-index: 1000;
+  }
+
+  .left-container,
+  .right-container {
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem 1rem;
+  }
+
+  .content {
+    margin: 0;
+    padding: 0 1rem;
+    text-align: center;
+  }
+
+  .content h1 {
+    font-size: 2.3rem;
+    word-wrap: break-word;
+  }
+
+  .content .intro {
+    font-size: 1.4rem;
+  }
+
+  .content .detail {
+    font-size: 1rem;
+    text-align: center;
+    line-height: 1.6rem;
+  }
+
+  .btn-container {
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 1rem;
+  }
+
+  .btn-container button:nth-child(2) {
+    margin-left: 0;
+  }
+
+  .icons {
+    flex-direction: row;
+    gap: 1.2rem;
+    margin-top: 1.5rem;
+  }
+
+  .design .circle {
+    position: static;
+    transform: none;
+    width: 80vw !important;
+    max-width: 300px;
+    margin: 2rem auto;
+  }
+
+  .circle:nth-child(2) {
+    width: 80vw !important;
+    height: auto;
+    max-width: 300px;
+    border-width: 0.8rem;
+  }
+
+  .about-container {
+    padding: 2rem 1rem;
+    font-size: 1rem;
+    text-align: center;
+  }
+}
+
+
